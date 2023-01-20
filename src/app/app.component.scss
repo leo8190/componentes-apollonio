@@ -1,0 +1,18 @@
+.grid-container{
+    grid-template-areas: 
+    'toolbar toolbar  toolbar  toolbar  toolbar  toolbar  toolbar'
+    'navbar   main    main    main    main    main    main';
+    display: grid;
+}
+
+.grid-toolbar{
+    grid-area: toolbar;
+}
+
+.grid-navbar{
+    grid-area: navbar;
+}
+
+.grid-social-media-links{
+    grid-area: main;
+}
